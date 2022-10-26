@@ -12,6 +12,8 @@ public class Overloading {
 
     public static int add(int a){    // add(10)일 경우 2번 add 호출
         System.out.println("add(int a)");
+
+        return 0;
     }
 
     public static void add(String s){   // add("문자")일 경우 3번 add 호출
